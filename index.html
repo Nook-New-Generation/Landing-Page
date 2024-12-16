@@ -21,8 +21,8 @@
       />
       <div class="ver-auto menu poppins-medium">
         <a href="" class="menu-active">Home</a>
-        <a href="">Tentang Kami</a>
-        <a href="">Laynanan</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="">Layanan</a>
         <a href="" class="cta-menu">Kontak</a>
       </div>
     </nav>
@@ -68,51 +68,34 @@
       >
     </div>
 
-    <div class="about-section absolute">
-      <div
-        style="
-          display: flex;
-          /* width: 1280px; */
-          padding: 107px 135px;
-          /* background-color: yellow; */
-          justify-content: center;
-          align-items: center;
-          gap: 80px;
-        "
-      >
-        <!-- isi -->
-        <div
-          style="
-            width: 480px;
-            height: 468px;
-            flex-shrink: 0;
-            /* background-color: red; */
-          "
-        >
-          <div style="padding-bottom: 17px">
-            <img src="Asset/test.svg" alt="" style="margin-right: 17px" />
-            <img src="Asset/Rectangle 5.svg" alt="" />
+    <div id="about" class="about-section absolute">
+      <div class="we-about">
+        <div class="card-image">
+          <div class="d-flex gap-10">
+            <div class="image-1">
+              <img src="Asset/image-1.svg" alt="image-1" />
+            </div>
+            <div class="image-2">
+              <img src="Asset/image-2.svg" alt="image-2" />
+            </div>
           </div>
-          <div style="position: absolute; left: 96px">
-            <img
-              src="Asset/Rectangle 6.svg"
-              alt=""
-              style="position: an; position: absolute; left: 2px"
-            />
-            <img
-              src="Asset/Rectangle 4.svg"
-              alt=""
-              style="position: absolute; left: 251px"
-            />
+          <div class="d-flex gap-10 pt-10">
+            <div class="image-3">
+              <img src="Asset/image-3.svg" alt="image-3" />
+            </div>
+            <div class="image-4">
+              <img src="Asset/image-4.svg" alt="image-4" />
+            </div>
           </div>
         </div>
 
         <div style="width: 450px">
-          <h1 style="font-weight: 500">Tentang Kami</h1>
+          <h1 class="fw-500">Tentang Kami</h1>
           <a
             style="text-decoration: none"
             href="https://www.google.com/maps/place/Medan,+Kota+Medan,+Sumatera+Utara/@3.6426141,98.5046779,11z/data=!3m1!4b1!4m6!3m5!1s0x303131cc1c3eb2fd:0x23d431c8a6908262!8m2!3d3.5951956!4d98.6722227!16zL20vMDFfZF9u?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
-            >Medan, Indonesia
+          >
+            Medan, Indonesia
           </a>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -120,24 +103,11 @@
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat
           </p>
-          <button
-            style="
-              padding: 6px 12px;
-              border-radius: 6px;
-              background: var(--Secondary-secondary-500, #6953da);
-            "
-          >
-            <span
-              style="
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 500;
-                color: #fff;
-              "
-              >Tim Kami</span
-            >
+          <button class="button-about">
+            <span class="spanWeAbout">Tim Kami</span>
           </button>
         </div>
+
         <!-- end isi -->
       </div>
     </div>

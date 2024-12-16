@@ -23,6 +23,10 @@ body{
 
 }
 
+
+.d-flex{
+    display: flex;
+}
 .hor-auto{
     display: flex;
     flex-direction: row;
@@ -269,4 +273,61 @@ body{
 .div-one{
     display: flex;
     justify-content: center; align-items: center; 
+}
+
+.card-image{
+    width: 479px; height: 467px"
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+
+.we-about{
+          display: flex;
+          /* width: 1280px; */
+          padding: 107px 135px;
+          /* background-color: yellow; */
+          justify-content: center;
+          align-items: center;
+          gap: 80px;
+}
+
+.image-1{
+    text-align: end; width: 50%
+}
+.image-2{
+    align-content: end;
+    width: 50%;
+    padding-left: 8px;
+    padding-bottom: 2px;
+}
+.image-3{
+    text-align: end; width: 50%; padding-right: 3px
+
+}
+.image-4{
+    align-content: end; width: 50%; padding-left: 4px
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+.button-about{
+    padding: 6px 12px;
+    border-radius: 6px;
+    background: var(--Secondary-secondary-500, #6953da);
+  
+}
+
+.spanWeAbout{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #fff;
 }
