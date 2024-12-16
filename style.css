@@ -18,6 +18,10 @@ element { max-width: 100vw; overflow-x: hidden; }
 
 /* Style Guide*/
 
+body{
+    min-height: 20000px;
+
+}
 
 .hor-auto{
     display: flex;
@@ -251,7 +255,7 @@ element { max-width: 100vw; overflow-x: hidden; }
 .about-section{
     margin-top: 118vh;
     width: 100%;
-    height: 82vh;
+    /* height: 82vh; */
     background-color: #ffffff;
 }
 
