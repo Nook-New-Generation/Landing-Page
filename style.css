@@ -5,41 +5,47 @@
     font-family: "Poppins", sans-serif;
 }
 
-:root{
-    --white : #FFF;
+:root {
+    --white: #FFF;
 }
 
-color 
-html, body {
+color html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
-element { max-width: 100vw; overflow-x: hidden; }
+
+element {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
 
 /* Style Guide*/
 
-body{
+body {
     min-height: 20000px;
 
 }
 
 
-.d-flex{
+.d-flex {
     display: flex;
 }
-.hor-auto{
+
+.hor-auto {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.ver-auto{
+.ver-auto {
     display: flex;
     flex-direction: colomn;
     justify-content: space-between;
 }
 
-.poppins-medium, .poppins-regular{
+.poppins-medium,
+.poppins-regular {
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
@@ -48,28 +54,28 @@ body{
 .poppins-regular {
     font-weight: 400;
 }
-  
+
 .poppins-medium {
     font-weight: 500;
 }
 
-.heading-xl{
+.heading-xl {
     font-size: 52px;
 }
 
-.body-xl{
+.body-xl {
     font-size: 18px;
 }
 
-.body-l{
+.body-l {
     font-size: 16px;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
-.absolute{
+.absolute {
     position: absolute;
 }
 
@@ -77,12 +83,12 @@ body{
 /* End Of Style Guide*/
 
 
-.nav-pad{
+.nav-pad {
     padding: 12px 64px;
     width: 100%;
 }
 
-.nav-style{
+.nav-style {
     z-index: 10;
     height: 75px;
     background-color: #6953DA;
@@ -90,11 +96,11 @@ body{
     position: fixed;
 }
 
-.menu{
+.menu {
     gap: 12px;
 }
 
-.menu a{
+.menu a {
     border-radius: 6px;
     display: block;
     height: fit-content;
@@ -105,23 +111,23 @@ body{
     color: white;
 }
 
-.menu a.menu-active{
+.menu a.menu-active {
     color: #D3FE3D;
 }
 
-.menu a.cta-menu{
+.menu a.cta-menu {
     color: #0a0a0a;
     background-color: #D3FE3D;
 }
 
-.logo-nav{
+.logo-nav {
     height: 32px;
     width: auto;
 }
 
 /* ini adalah style untuk home section */
 
-.home-section{
+.home-section {
     width: 100%;
     height: 100vh;
     background-color: #ffffff;
@@ -130,32 +136,32 @@ body{
     align-items: center;
 }
 
-.text-action{
+.text-action {
     width: 40%;
 }
 
-.welcome .text{
+.welcome .text {
     color: #616161;
 }
 
-.image-robot{
+.image-robot {
     width: auto;
     height: 400px;
 }
 
-.home-section .group-button{
+.home-section .group-button {
     margin-top: 16px;
     gap: 12px;
     display: flex;
     flex-direction: row;
 }
 
-.home-section .group-button a.cta-button{
+.home-section .group-button a.cta-button {
     color: #ffffff;
     background-color: #6953DA;
 }
 
-.home-section .group-button a{
+.home-section .group-button a {
     width: fit-content;
     border-radius: 6px;
     display: block;
@@ -165,6 +171,7 @@ body{
     text-decoration: none;
     color: #6953DA;
 }
+
 /* 
 .strip{
     width: 100%;
@@ -200,38 +207,40 @@ body{
 } */
 
 
-.strip-kiri{
+.strip-kiri {
     transform: rotate(-1.4deg);
     flex-direction: row-reverse;
 }
+
 /* 
 .strip-kanan-image{
     margin-right: -30%;
 } */
 
-.strip-kanan{
+.strip-kanan {
     transform: rotate(1.6deg);
     flex-direction: row;
 }
+
 /* 
 .strip-kanan-image{
     margin-left: -30%;
 } */
 
-.strip-kanan-image{
+.strip-kanan-image {
     margin-left: -30%;
 }
 
-.strip-kiri-image{
+.strip-kiri-image {
     background-position: right;
     margin-right: -30%;
 }
 
-.border{
+.border {
     border: 1px solid #0a0a0a;
 }
 
-.strip{
+.strip {
     display: flex;
     align-items: center;
     left: 0;
@@ -242,92 +251,226 @@ body{
     overflow-x: hidden;
 }
 
-.strip-image{
+.strip-image {
     background-image: url(Asset/Logo-repeat.svg);
+    fill: #D3FE3D;
+    height: 60px;
+    width: 150%;
+}
+
+.strip-image-blue {
+    background-image: url(Asset/logo-repeat-blue.svg);
+    fill: #6953DA;
     height: 60px;
     width: 150%;
 }
 
 
-.tagline-section{
+.tagline-section {
     margin-top: 100vh;
     width: 100%;
     height: 18vh;
     background-color: #6953DA;
 }
 
-.about-section{
+.about-section {
     margin-top: 118vh;
     width: 100%;
     /* height: 82vh; */
     background-color: #ffffff;
 }
 
-.span-one{
+.span-one {
     color: var(--white);
     font-size: 20px;
     font-weight: 500;
     margin-top: 20px;
 }
 
-.div-one{
+.div-one {
     display: flex;
-    justify-content: center; align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
-.card-image{
-    width: 479px; height: 467px"
+.card-image {
+    width: 479px;
+    height: 467px"
+
 }
 
-.gap-10{
+.gap-10 {
     gap: 10px;
 }
 
-.pt-10{
+.pt-10 {
     padding-top: 10px;
 }
 
-.we-about{
-          display: flex;
-          /* width: 1280px; */
-          padding: 107px 135px;
-          /* background-color: yellow; */
-          justify-content: center;
-          align-items: center;
-          gap: 80px;
+.we-about {
+    display: flex;
+    /* width: 1280px; */
+    padding: 107px 135px;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
 }
 
-.image-1{
-    text-align: end; width: 50%
+.image-1 {
+    text-align: end;
+    width: 50%
 }
-.image-2{
+
+.image-2 {
     align-content: end;
     width: 50%;
     padding-left: 8px;
     padding-bottom: 2px;
 }
-.image-3{
-    text-align: end; width: 50%; padding-right: 3px
 
-}
-.image-4{
-    align-content: end; width: 50%; padding-left: 4px
-}
-
-.fw-500{
-    font-weight: 500;
+.image-3 {
+    text-align: end;
+    width: 50%;
+    padding-right: 3px
 }
 
-.button-about{
+.image-4 {
+    align-content: end;
+    width: 50%;
+    padding-left: 4px
+}
+
+
+
+.button-about {
     padding: 6px 12px;
     border-radius: 6px;
     background: var(--Secondary-secondary-500, #6953da);
-  
+
 }
 
-.spanWeAbout{
+.spanWeAbout {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     color: #fff;
+}
+
+.page-layanan {
+    display: flex;
+    align-items: center;
+    background-color: #D3FE3D;
+    position: absolute;
+    margin-top: 215vh;
+    width: 100%;
+    height: 832px;
+}
+
+.page-layanan-text {
+    display: block;
+    width: 260px;
+    height: 480px;
+    gap: 4px;
+    justify-content: center;
+    margin-left: 64px;
+    align-content: center;
+    margin-right: 64px;
+    align-items: flex-start;
+    /* background-color: red; */
+
+}
+
+/* ukuran font */
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+
+/*end ukuran font */
+
+
+/* ketebalan font */
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.three-card {
+    display: flex;
+    justify-content: space-between;
+    height: 524px;
+    position: absolute;
+    right: -100px;
+    align-items: center;
+    gap: 32px;
+}
+
+.layanan-card-1 {
+    background-color: white;
+    border-radius: 12px;
+    width: 300px;
+    height: 480px;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.layanan-card-2 {
+    background-color: white;
+    border-radius: 12px;
+    width: 300px;
+    height: 524px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.layanan-card-3 {
+    background-color: white;
+    border-radius: 12px;
+    width: 300px;
+    height: 480px;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.strip-repeat-two {
+    background-color: #D3FE3D;
+    position: absolute;
+    margin-top: 250vh;
+    width: 100%;
+}
+
+.order-1 {
+    display: flex;
+    width: 204px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid var(--Neutral-neutral-40, #E0E0E0);
+}
+
+
+.color-secondary-500 {
+    color: #6953DA;
 }
