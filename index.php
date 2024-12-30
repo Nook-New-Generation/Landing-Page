@@ -1,12 +1,12 @@
 <?php
 //INSERT INTO `kontak` (`id`, `email`, `pesan`) VALUES (NULL, 'email', 'pesan');
-$conn = mysqli_connect("localhost", "u594045982_user", "Nookstudio#404", "u594045982_NookStudio");
+// $conn = mysqli_connect("localhost", "u594045982_user", "Nookstudio#404", "u594045982_NookStudio");
 
-if( isset($_POST["submit"])){
-    $email = $_POST["email"];
-    $pesan = $_POST["pesan"];
-// INSERT INTO `kontak` (`id`, `email`, `pesan`) VALUES (NULL, 'fattah', 'ihsan')
-mysqli_query($conn, "INSERT INTO `kontak` (`id`, `email`, `pesan`) VALUES (NULL, '$email', '$pesan')");
+// if( isset($_POST["submit"])){
+//     $email = $_POST["email"];
+//     $pesan = $_POST["pesan"];
+// // INSERT INTO `kontak` (`id`, `email`, `pesan`) VALUES (NULL, 'fattah', 'ihsan')
+// mysqli_query($conn, "INSERT INTO `kontak` (`id`, `email`, `pesan`) VALUES (NULL, '$email', '$pesan')");
 ?>
 
 <!DOCTYPE html>
