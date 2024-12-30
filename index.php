@@ -6,7 +6,7 @@ $password = "Nookstudio#404";      // Password MySQL
 $database = "u594045982_NookStudio"; // Nama database
 
 // Membuat koneksi
-mysqli_connect($host, $username, $password, $database);
+$conn = mysqli_connect($host, $username, $password, $database);
 
 if( isset($_POST["submit"])){
     $email = $_POST["email"];
