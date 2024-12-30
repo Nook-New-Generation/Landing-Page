@@ -60,6 +60,10 @@ element { max-width: 100vw; overflow-x: hidden; }
     gap: 4px;
 }
 
+.margin-left-8{
+    margin-left: 8px;
+}
+
 .margin-top-8{
     margin-top: 8px;
 }
@@ -517,6 +521,76 @@ textarea{
     height: 48vh;
     background-color: var(--accent-b-500);
     justify-content: space-between;
+    padding: 64px;
+}
+
+.footer-section span{
+    display: inline-block;
+    color: var(--neutral-10);
+    text-align: center;
+}
+
+.socialMediaFooter,
+.getInTouchFooter,
+.nookMenuFooter{
+    width: 20%;
+    height: auto;
+    color: var(--neutral-10);
+}
+
+.socialMediaFooter,
+.getInTouchFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.socialMediaFooter .text,
+.getInTouchFooter .text,
+.nookMenuFooter .text{
+    gap: 8px;
+}
+
+.socialMediaFooter a,
+.getInTouchFooter a{
+    justify-content: flex-start;
+    text-decoration: none;
+    color: var(--neutral-10);
+}
+
+
+.nookMenuFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.nookMenuFooter a{
+    justify-content: flex-end;
+    text-decoration: none;
+    color: var(--neutral-10);
+}
+
+
+.logoFooter{
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.logoFooter .text{
+    height: auto;
+    align-items: baseline;
+}
+
+.logoFooter img{
+    width: 100%;
+    height: auto;
 }
 
 /* End Of Footer Section */
