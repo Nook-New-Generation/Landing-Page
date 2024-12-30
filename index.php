@@ -1,6 +1,12 @@
 <?php
 //INSERT INTO `kontak` (`id`, `email`, `pesan`) VALUES (NULL, 'email', 'pesan');
-// $conn = mysqli_connect("localhost", "u594045982_user", "Nookstudio#404", "u594045982_NookStudio");
+$host = "localhost"; // Alamat server Hostinger (ganti dengan info server Anda)
+$username = "u594045982_user";     // Username MySQL
+$password = "Nookstudio#404";      // Password MySQL
+$database = "u594045982_NookStudio"; // Nama database
+
+// Membuat koneksi
+mysqli_connect($host, $username, $password, $database);
 
 // if( isset($_POST["submit"])){
 //     $email = $_POST["email"];
