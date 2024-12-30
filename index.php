@@ -8,11 +8,11 @@ $database = "u594045982_NookStudio"; // Nama database
 // Membuat koneksi
 mysqli_connect($host, $username, $password, $database);
 
-// if( isset($_POST["submit"])){
-//     $email = $_POST["email"];
-//     $pesan = $_POST["pesan"];
-// // INSERT INTO `kontak` (`id`, `email`, `pesan`) VALUES (NULL, 'fattah', 'ihsan')
-// mysqli_query($conn, "INSERT INTO `kontak` (`id`, `email`, `pesan`) VALUES (NULL, '$email', '$pesan')");
+if( isset($_POST["submit"])){
+    $email = $_POST["email"];
+    $pesan = $_POST["pesan"];
+    mysqli_query($conn, "INSERT INTO `kontak` (`id`, `email`, `pesan`) VALUES (NULL, '$email', '$pesan')");
+}
 ?>
 
 <!DOCTYPE html>
