@@ -1,165 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Landing Page Nook Studio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Nook Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="Asset/Icon-Secondary.png" type="image/x-icon"/>
 </head>
-
 <body>
-  <nav class="hor-auto nav-pad nav-style">
-    <img src="Asset/Logo1_Nook_Studio.svg" alt="Logo_Nook_Studio" class="logo-nav" />
-    <div class="ver-auto menu poppins-medium">
-      <a href="#" class="menu-active">Home</a>
-      <a href="#about">Tentang Kami</a>
-      <a href="#page-layanan">Layanan</a>
-      <a href="" class="cta-menu">Kontak</a>
-    </div>
-  </nav>
-  <div id="page-home" class="home-section hor-auto absolute">
-    <div class="text-action">
-      <div class="welcome">
-        <h1 class="poppins-medium heading-xl">
-          Transformasi Data Menjadi Solution
-        </h1>
-        <p class="poppins-regular body-xl text">
-          Selamat datang di Nook Studio, mitra terpercaya Anda untuk layanan
-          data analysis. Kami berkomitmen membantu Anda memahami data lebih
-          dalam dan membuat keputusan berbasis informasi yang akurat.
-        </p>
-      </div>
-      <div class="group-button poppins-medium body-l">
-        <a href="" class="cta-button">Layanan</a>
-        <a href="">Tentang Kami</a>
-      </div>
-    </div>
-    <img src="Asset/robot-image.svg" alt="Robot_Ilustration" class="image-robot" />
-    <div class="strip absolute strip-kiri" id="kiri">
-      <div class="strip-image strip-kiri-image"></div>
-    </div>
-    <div class="strip absolute strip-kanan" id="kanan">
-      <div class="strip-image strip-kanan-image"></div>
-    </div>
-  </div>
-  <div class="tagline-section absolute div-one">
-    <span class="span-one">Your Data 📊, Our Expertise 💡, Better Outcomes 📈</span>
-  </div>
+    <nav id="navigation" class="hor-auto nav-pad nav-style">
+        <img src="Asset/Logo1_Nook_Studio.svg" alt="Logo_Nook_Studio" class="logo-nav" id="logoPrimary">
+        <img src="Asset/Logo2_Nook_Studio.svg" alt="Logo_Nook_Studio" class="logo-nav" id="logoSecondary">
+        <div class="hor-auto menu poppins-medium">
+            <a href="#home" id="menuHome">Home</a>
+            <a href="#taglineSection" id="menuAbout">About</a>
+            <a href="#serviceSection" id="menuService">Service</a>
+            <a href="#contactSection" id="menuContact">Contact</a>
+        </div>
+    </nav>
+    <div id="home" class="home-section hor-auto absolute">
+        <div class="text-action">
+            <div class="welcome">
+                <h1 class="poppins-medium heading-xl">Transformasi Data Menjadi Solusi</h1>
+                <p class="poppins-regular body-l text">Selamat datang di Nook Studio, mitra terpercaya Anda untuk layanan data analysis. Kami berkomitmen membantu Anda memahami data lebih dalam dan membuat keputusan berbasis informasi yang akurat.</p>
+            </div>
+            <div class="group-button poppins-medium body-l">
+                <a href="#serviceSection" class="cta-button">Layanan</a>
+                <a href="#taglineSection">Tentang Kami</a>
+            </div>
+        </div>
+        <img src="Asset/robot-image.svg" alt="Robot_Ilustration" class="image-robot">
 
-  <div id="about" class="about-section absolute">
-    <div class="we-about">
-      <div class="card-image">
-        <div class="d-flex gap-10">
-          <div class="image-1">
-            <img src="Asset/image-1.svg" alt="image-1" />
-          </div>
-          <div class="image-2">
-            <img src="Asset/image-2.svg" alt="image-2" />
-          </div>
+        <div class="strip absolute strip-kiri" id="kiri">
+            <div class="strip-image strip-kiri-image"></div>
         </div>
-        <div class="d-flex gap-10 pt-10">
-          <div class="image-3">
-            <img src="Asset/image-3.svg" alt="image-3" />
-          </div>
-          <div class="image-4">
-            <img src="Asset/image-4.svg" alt="image-4" />
-          </div>
+        <div class="strip absolute strip-kanan" id="kanan">
+            <div class="strip-image strip-kanan-image"></div>
         </div>
-      </div>
-
-      <div style="width: 450px">
-        <h1 class="fw-500">Tentang Kami</h1>
-        <a style="text-decoration: none"
-          href="https://www.google.com/maps/place/Medan,+Kota+Medan,+Sumatera+Utara/@3.6426141,98.5046779,11z/data=!3m1!4b1!4m6!3m5!1s0x303131cc1c3eb2fd:0x23d431c8a6908262!8m2!3d3.5951956!4d98.6722227!16zL20vMDFfZF9u?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">
-          Medan, Indonesia
-        </a>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat
-        </p>
-        <button class="button-about">
-          <span class="spanWeAbout">Tim Kami</span>
-        </button>
-      </div>
-
-      <!-- end isi -->
-    </div>
-  </div>
-
-  <div id="page-layanan" class="page-layanan">
-    <div class="page-layanan-text">
-      <h1 class="fw-500 fs-32">Layanan</h1>
-      <p class="fw-400 fs-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat</p>
-    </div>
-    <div class="d-flex three-card">
-      <div class="layanan-card-1">
-        <div>
-          <h1>Layanan</h1>
-          <p>Deskripsi Layanan</p>
-        </div>
-        <div>1.4Jt</div>
-        <div>
-          <p>Layanan 1</p>
-        </div>
-        <div class="order-1">
-          <span class="fw-500 fs-18 color-secondary-500">
-            Order
-          </span>
-        </div>
-      </div>
-      <div class="layanan-card-2">
-        <div>
-          <h1>Layanan</h1>
-          <p>Deskripsi Layanan</p>
-        </div>
-        <div>1.4Jt</div>
-        <div>
-          <p>Layanan 1</p>
-        </div>
-        <div class="order-1">
-          <span class="fw-500 fs-18 color-secondary-500">
-            Order
-          </span>
-        </div>
-      </div>
-      <div class="layanan-card-3">
-        <div>
-          <h1>Layanan</h1>
-          <p>Deskripsi Layanan</p>
-        </div>
-        <div>1.4Jt</div>
-        <div>
-          <p>Layanan 1</p>
-        </div>
-        <div class="order-1">
-          <span class="fw-500 fs-18 color-secondary-500">
-            Order
-          </span>
-        </div>
-      </div>
     </div>
 
-  </div>
-  <div class="strip-repeat-two">
-    <div class="strip absolute strip-kiri" id="kiri">
-      <div class="strip-image-blue strip-kiri-image"></div>
+    <!-- Start Perubahan -->
+
+    <div id="taglineSection" class="tagline-section absolute ver-auto">
+        <span id="tagline" class="span-one poppins-medium heading-s">Your Data 📊, Our Expertise 💡, Better Outcomes 📈</span>
     </div>
-    <div class="strip absolute strip-kanan" id="kanan">
-      <div class="strip-image-blue strip-kanan-image"></div>
+
+    <div id="aboutSection" class="about-section absolute hor-auto">
+        <div class="group-image ver-auto">
+                <div class="atas hor-auto">
+                    <div class="kiri"><div id="imageAboutLeftTop"></div></div>
+                    <div class="kanan"><div id="imageAboutRightTop"></div></div>
+                </div>
+                <div class="bawah hor-auto">
+                    <div class="kiri"><div id="imageAboutLeftBottom"></div></div>
+                    <div class="kanan"><div id="imageAboutRightBottom"></div></div>
+                </div>
+            </div>
+    
+        <div class="text">
+            <div class="gap-4">
+                <h2 class="heading-m poppins-medium">Tentang Kami</h2>
+                <a style="text-decoration: none"
+                href="https://www.google.com/maps/place/Medan,+Kota+Medan,+Sumatera+Utara/@3.6426141,98.5046779,11z/data=!3m1!4b1!4m6!3m5!1s0x303131cc1c3eb2fd:0x23d431c8a6908262!8m2!3d3.5951956!4d98.6722227!16zL20vMDFfZF9u?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" class="body-l poppins-regular">
+                    <img src="Asset/iconLocation.svg" alt="icon_location"> 
+                    <span>Medan, Indonesia</span>
+                </a>            
+                <p>Kami adalah tim muda yang penuh semangat, siap membantu Anda memahami data secara mendalam dengan pendekatan yang ramah dan profesional, sehingga Anda dapat mengambil keputusan yang lebih cerdas dan strategis.</p>
+            </div>
+            <a href="#" class="button">Tim Kami</a>
+        </div>
+        
     </div>
-  </div>
-  <script src="script.js"></script>
+
+    <!-- End Of Perubahan -->
+
+    <div id="serviceSection" class="service-section absolute">
+
+        <div class="strip absolute strip-kiri" id="kiriSecondary">
+            <div class="strip-image strip-kiri-image"></div>
+        </div>
+        <div class="strip absolute strip-kanan" id="kananSecondary">
+            <div class="strip-image strip-kanan-image"></div>
+        </div>
+    </div>
+    <div id="contactSection" class="contact-section absolute hor-auto">
+        <div class="img"></div>
+        <div class="text">
+            <h2 class="heading-m poppins-medium">Kontak</h2>
+            <span class="body-m poppins-regular">Ayo kirimkan pesan pada kami!</span>
+            <form action="" method="post" class="margin-top-32">
+                <label for="email" class="body-m poppins-medium">Email</label>
+                <input type="email" name="email" id="email" placeholder="Masukkan Email" class="body-s poppins-regular margin-top-8">
+                <label for="email" class="body-m poppins-medium jaraklabel">Pesan</label>
+                <textarea name="pesan" id="pesan" class="body-s poppins-regular margin-top-8" rows="4" placeholder="Tuliskan kesan, kesan, komentar atau saran anda disini"></textarea>
+                <input type="submit" name="submit" class="button-submit body-l poppins-medium margin-top-32">
+            </form>
+        </div>
+    </div>
+    <div id="footer" class="footer-section absolute hor-auto">
+
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
